@@ -1,0 +1,186 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+body{
+    background-color: rgb(54, 50, 54);
+   
+}
+
+
+.crud{
+
+    width: 80%;
+    margin: auto;
+    
+}
+
+.head{
+    text-align: center;
+    margin:5px 0;
+    font-size: 18px;
+    color: white;
+}
+
+
+ input{
+    width: 100%;
+    height: 50px;
+    outline: none;
+    border: none;
+    background-color: rgb(234, 228, 228);
+    margin:4px 0;
+    border-radius: 4px;
+
+    padding: 4px;
+    font-size: 22px;
+    color: black;
+}
+
+input:focus{
+    background-color: rgb(255, 246, 246);
+}
+
+
+.price input{
+    width: 21%;
+}
+
+
+#total{
+
+    background: rgb(184, 42, 42);
+    padding: 6px 5px;
+    border-radius: 4px;
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+} 
+
+
+#total::before{
+
+    content: 'total:';
+}
+
+button{
+
+    width: 100%;
+    height: 40px;
+    border: none;
+    cursor: pointer;
+   background-color:rgb(163, 146, 146);
+    color: rgb(9, 9, 9);
+    border-radius: 20px;
+    font-size:20px;
+}
+
+
+
+
+.btnsearch{
+
+    display:flex ;
+    justify-content: space-between;
+}
+
+.btnsearch button{
+    width: 30%;
+    margin: 10px 0;
+}
+
+table{
+
+    width: 100%;
+    text-align: center;
+    margin: 40px 0;
+    background-color:white ;
+}
+
+table th{
+
+    text-transform: uppercase;
+    
+    background-color:rgb(99, 97, 97);
+    background: rgb(186, 184, 184);
+    color: black;
+    
+    border: none;
+    outline: none;
+}
+th{
+    padding: 5px ;
+   background-color:  white;
+   font-size: 18px;
+    
+}
+
+td{
+
+    padding: 5px ;
+    background-color: white;
+    border:1px solid rgb(66, 64, 62);
+   
+    font-size: 18px;
+    
+}
+
+#update{
+
+    background: rgb(52, 186, 52);
+    color: white;
+    width: 90px;
+    height:43px;
+    border: solid 6px rgb(52, 186, 52) ;
+    border: solid 1px white;
+    text-align: center;
+    border-radius:10px;
+}
+
+#delete{
+
+    background-color: brown;
+    color: white;
+    width: 90px;
+    height:43px;
+    border: solid 6px brown;
+    text-align: center;
+    border-radius: 10px;
+}
+
+
+#sumipt{
+
+    width: 160px;
+    margin-left: 530px;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    font-size:22px;
+    height:47px;
+    background: rgb(0, 149, 255);
+    /* font-weight: bold; */
+    /* border:  solid 5px rgb(140, 185, 224); */
+
+  
+
+}
+#sumipt:hover{
+    background: rgb(6, 37, 238);
+    color: white;
+    transition: all 2s;
+    box-shadow: 90px white;
+    /* border: solid 1px white; */
+    /* border-top:  solid 5px rgb(91, 92, 94); */
+
+  
+   
+  
+
+  
+}
